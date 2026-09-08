@@ -1,0 +1,14 @@
+{
+  "FileVersion": 3,
+  "Version": 6,
+  "VersionName": "0.3.1",
+  "FriendlyName": "Painter UE Bridge",
+  "Description": "Receives Painter Live Sync texture updates and refreshes material instances.",
+  "Category": "Editor",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Plugins": [
+    {"Name": "PythonScriptPlugin", "Enabled": true},
+    {"Name": "EditorScriptingUtilities", "Enabled": true}
+  ]
+}
